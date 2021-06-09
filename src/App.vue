@@ -2,16 +2,17 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <Counter />
+    <ShowData />
   </div>
 </template>
 
 <script>
 import Counter from './components/Counter.vue'
-
+import ShowData from './components/ShowData.vue'
 export default {
   name: 'App',
   components: {
-    Counter
+    Counter, ShowData
   }
 }
 </script>

@@ -14,8 +14,6 @@ export default{
         ... mapGetters([
             'counter'
         ])
-            
-
     },
     methods: {
         ... mapActions([
